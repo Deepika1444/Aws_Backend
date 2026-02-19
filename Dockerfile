@@ -10,7 +10,7 @@ COPY . .
 
 ENV PORT=5000
 
-ENV MONGO_URI=mongodb://host.docker.internal:27017/register_db
+ENV MONGO_URI=mongodb://mongo:27017/register_db
 
 EXPOSE 5000
 
